@@ -6,6 +6,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import Icon from '@/components/ui/icon';
+import TarotChatbot from '@/components/TarotChatbot';
 
 const Index = () => {
   const [isBookingOpen, setIsBookingOpen] = useState(false);
@@ -220,6 +221,9 @@ const Index = () => {
           </div>
         </div>
       </footer>
+
+      {/* Tarot Chatbot */}
+      <TarotChatbot />
     </div>
   );
 };
